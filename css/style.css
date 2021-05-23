@@ -16,15 +16,15 @@ section#intro {
     overflow: hidden;
 }
 div#fxdC{
-    background: linear-gradient(#000000b5,#000000b5),url(/img/bg.jpg);
+    background-image: linear-gradient(#000000b5,#000000b5), url("img/bg.jpg");
     height: 753px;
     width: 100%;
     position: fixed;
-    margin-top: -66px;
+    margin-top: -82px;
     z-index: -1;
 }
 .bg-transparent {
-    background: linear-gradient(#000000b5,#000000b5),url(/img/bg.jpg);
+    background: linear-gradient(#000000b5,#000000b5),url("img/bg.jpg");
 }
 
 /* .container {
@@ -72,7 +72,7 @@ div#navbarNav ul li a:hover{
 }
 nav#navBar {
     /* background: #65f3f945; */
-    background: linear-gradient(#000000b5,#000000b5),url(/img/bg.jpg);
+    background: linear-gradient(#000000b5,#000000b5),url("img/bg.jpg");
 }
 div#aLeft {
     padding: 50px 0px;
@@ -339,6 +339,7 @@ footer#footer div ul li a:hover {
 .px-8.py-10.relative.z-10.w-full.border-4.border-gray-200.bg-white.opacity-0.hover\:opacity-100 {
     transition: .3s;
 }
+
 
 
 
